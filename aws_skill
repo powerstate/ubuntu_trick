@@ -1,2 +1,7 @@
+
+# 注意aws要求所有pem文件都只能有一个用户的使用权， 并删除所有的继承
 ssh -i /path/to/your/key.pem ubuntu@<EC2实例的公网IP>
 wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
+
+
+
